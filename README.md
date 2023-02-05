@@ -1,0 +1,1 @@
+This repository implements a microserver with ranking based on Flask. The KNRM model is used. The model is loaded on the server first, then it responds to requests, determines the language, and using GLOVE embeddings, it provides the top 10 matching questions.
